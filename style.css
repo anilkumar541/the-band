@@ -1,0 +1,273 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    /* background-color: #232b2b; */
+    
+}
+
+
+.nav{
+    /* background-color: red; */
+    min-height: 100%;
+}
+
+.navbar{
+    background-color: #232b2b;
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-height: 100vh;
+    
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+   
+}
+
+@media (max-width: 600px){
+    .navbar a{
+        margin-inline: 1rem;
+        font-size: 1rem
+       
+    }
+}
+
+.hero-image{
+    
+    /* position: relative; */
+}
+
+.hero-image img{
+    /* height: 100%; */
+    
+    width: 100%;
+    max-height: 90vh;
+}
+
+
+/* #about section  */
+
+.about{
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 5rem;
+    /* min-height: 100vh; */
+}
+
+.about .band{
+    font-size: 3.5em;
+}
+
+.about .band-title{
+    padding-block: 2rem;
+}
+
+
+.about-images{
+    display: flex;
+    margin-block: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-images img{
+    max-width: 30%;
+    max-height: 70vh;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+/* Tour update section */
+
+.tour-update{
+    /* background-color: yellow; */
+    text-align: center;
+    padding-block: 1rem;
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+.tour-remember{
+    margin-block: 3rem;
+}
+
+.month-tour{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.month{
+    padding-block: 0.9rem;
+    /* background-color: yellowgreen; */
+    padding-left: 1rem;
+}
+
+
+
+.button-1{
+    background-color: #e91e63;
+}
+.button-2{
+    background-color: #e91e63;
+}
+
+.month-button{
+    display: flex;
+    align-items: center;
+}
+
+.check-button {
+    margin-inline: 2rem;
+    padding-inline: 1.5rem;
+    border-radius: 7px;
+    min-height: 2em;
+}
+
+
+/* #upcoming tour details */
+
+.upcoming-tour{
+    display: flex;
+    margin-block: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tour-image{
+    background-color: rgb(70, 19, 254);
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+
+.tour-city{
+    padding-block: 1rem;
+}
+
+.tour-details{
+    padding-block: 1rem;
+}
+
+.buy-ticket-button{
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+
+
+@media (max-width: 500px){
+    .about-images{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .about-images img{
+        max-width: 90%;
+        max-height: 50vh;
+
+        padding-block: 1rem;
+    
+    }
+
+    /* upcomig-tour-details */
+    .upcoming-tour{
+        flex-direction: column;
+    }
+    
+    .buy-ticket-button{
+        margin-bottom: 1rem;
+        
+    }
+
+    .contact-and-form{
+        flex-direction: column;
+    }
+
+    .contact-one{
+        margin-block: 2.7rem;
+    }
+    
+    
+    
+}
+
+
+/* .contact section */
+.contact-container{
+    /* background-color: #e91e63; */
+}
+
+.contact-1{
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.contact-1 h4{
+    padding-block: 1rem;
+}
+
+
+
+.contact-and-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    background-color: #d7c9c4;
+    
+}
+
+.contact-two{
+    display: flex;
+    margin-block: 1rem;
+}
+
+/* style="width: 381px; height: 66px;" */
+
+#send-info{
+    display: flex;
+    margin: auto;
+    padding-block: 0.3rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.6rem;
+    background-color: #394586b8;
+    color: white;
+
+}
+
+
+.social-media-icon{
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.social-media-icon .icon {
+    font-size: 24px; /* Adjust the size as per your preference */
+    padding-inline: 0.2rem;
+}
+
+.copyright{
+    text-align: center;
+    margin-block: 1rem;
+}
